@@ -19,6 +19,7 @@
 #![allow(clippy::trivially_copy_pass_by_ref)]
 
 use std::ops::{BitAnd, BitAndAssign, BitOr, BitOrAssign, BitXor, BitXorAssign, Not};
+use serde::{Deserialize, Serialize};
 
 pub use keyboard_types::{Code, KeyState, Location};
 
@@ -32,7 +33,7 @@ pub type KbKey = keyboard_types::Key;
 ///
 /// [`KeyboardEvent`]: keyboard_types::KeyboardEvent
 #[non_exhaustive]
-#[derive(Clone, Debug, Default, Eq, Hash, PartialEq)]
+#[derive(Clone, Debug, Default, Eq, Hash, PartialEq, Serialize, Deserialize)]
 pub struct KeyEvent {
     /// Whether the key is pressed or released.
     pub state: KeyState,
@@ -49,6 +50,7 @@ pub struct KeyEvent {
     /// Events with this flag should be ignored in a text editor
     /// and instead composition events should be used.
     pub is_composing: bool,
+    pub from_command: bool,
 }
 
 /// The modifiers.
@@ -58,7 +60,7 @@ pub struct KeyEvent {
 /// will simply become that type.
 ///
 /// [`keyboard_types::Modifiers`]: keyboard_types::Modifiers
-#[derive(Clone, Copy, Debug, Default, Eq, Hash, PartialEq)]
+#[derive(Clone, Copy, Debug, Default, Eq, Hash, PartialEq, Serialize, Deserialize)]
 pub struct Modifiers(keyboard_types::Modifiers);
 
 /// A convenience trait for creating Key objects.
@@ -87,6 +89,7 @@ impl KeyEvent {
             mods,
             is_composing: false,
             repeat: false,
+            from_command: false
         }
     }
 }

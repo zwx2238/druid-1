@@ -613,6 +613,7 @@ impl KeyboardState {
                         is_composing: false,
                         location,
                         repeat,
+                        from_command: false
                     };
                     Some(event)
                 } else {
@@ -638,6 +639,7 @@ impl KeyboardState {
                     is_composing: false,
                     location,
                     repeat,
+                    from_command: false
                 };
                 Some(event)
             }
@@ -672,6 +674,7 @@ impl KeyboardState {
                         is_composing: false,
                         location,
                         repeat,
+                        from_command: false
                     };
                     Some(event)
                 } else {

@@ -177,13 +177,15 @@ pub mod sys {
     use std::any::Any;
 
     use super::Selector;
-    use crate::{
-        sub_window::{SubWindowDesc, SubWindowUpdate},
-        FileDialogOptions, FileInfo, Rect, SingleUse, WidgetId, WindowConfig,
-    };
+    use crate::{sub_window::{SubWindowDesc, SubWindowUpdate}, FileDialogOptions, FileInfo, Rect, SingleUse, WidgetId, WindowConfig, WindowId};
+    use crate::Event;
 
     /// Quit the running application. This command is handled by the druid library.
     pub const QUIT_APP: Selector = Selector::new("druid-builtin.quit-app");
+
+    pub const EXECUTE_EVENT: Selector<(String,druid::test::Event,WindowId)> = Selector::new("druid-builtin.execute-event");
+
+    pub const EXECUTE_EVENTS: Selector<String> = Selector::new("druid-builtin.execute-events");
 
     /// Hide the application. (mac only)
     #[cfg_attr(

@@ -1,0 +1,4282 @@
+[
+    {
+        "selector": "option-CE",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 155.0,
+                    "y": 67.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-CE",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 155.0,
+                    "y": 67.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-CE",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 155.0,
+                    "y": 67.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-CE",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 155.0,
+                    "y": 67.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-1",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 136.0,
+                    "y": 58.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-1",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 136.0,
+                    "y": 58.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-1",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 136.0,
+                    "y": 58.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-6",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 106.0,
+                    "y": 27.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-6",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 106.0,
+                    "y": 27.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-6",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 105.0,
+                    "y": 27.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-6",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 105.0,
+                    "y": 27.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 120.0,
+                    "y": 24.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 120.0,
+                    "y": 24.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 120.0,
+                    "y": 24.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 105.0,
+                    "y": 26.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 105.0,
+                    "y": 26.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 124.0,
+                    "y": 80.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 124.0,
+                    "y": 80.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 60.0,
+                    "y": 85.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 60.0,
+                    "y": 85.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 60.0,
+                    "y": 80.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 60.0,
+                    "y": 80.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-−",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 37.0,
+                    "y": 36.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-−",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 37.0,
+                    "y": 36.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-−",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 37.0,
+                    "y": 36.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 236.0,
+                    "y": 3.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 236.0,
+                    "y": 3.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 220.0,
+                    "y": 11.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 220.0,
+                    "y": 11.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 95.0,
+                    "y": 9.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 95.0,
+                    "y": 9.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 96.0,
+                    "y": -7.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-8",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 96.0,
+                    "y": 111.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 96.0,
+                    "y": -7.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-8",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 139.0,
+                    "y": 86.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-8",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 139.0,
+                    "y": 86.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-8",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 211.0,
+                    "y": 88.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-8",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 211.0,
+                    "y": 88.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-6",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 182.0,
+                    "y": 31.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-6",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 182.0,
+                    "y": 31.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-6",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 174.0,
+                    "y": 39.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-6",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 174.0,
+                    "y": 39.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 49.0,
+                    "y": 19.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 49.0,
+                    "y": 19.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": -11.0,
+                    "y": -4.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 230.0,
+                    "y": 115.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-3",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": -11.0,
+                    "y": -4.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 28.0,
+                    "y": 17.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 28.0,
+                    "y": 17.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 41.0,
+                    "y": 15.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 41.0,
+                    "y": 15.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-×",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 32.0,
+                    "y": 74.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-×",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 32.0,
+                    "y": 74.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-×",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 39.0,
+                    "y": 78.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-×",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 39.0,
+                    "y": 78.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-÷",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 116.0,
+                    "y": 93.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-÷",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 116.0,
+                    "y": 93.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-÷",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 117.0,
+                    "y": 83.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-÷",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 117.0,
+                    "y": 83.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-÷",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 116.0,
+                    "y": 73.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-÷",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 116.0,
+                    "y": 73.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-÷",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 90.0,
+                    "y": 97.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-÷",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 90.0,
+                    "y": 97.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 204.0,
+                    "y": 23.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 204.0,
+                    "y": 23.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 201.0,
+                    "y": 19.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-5",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 201.0,
+                    "y": 19.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-8",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 160.0,
+                    "y": 80.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-8",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 160.0,
+                    "y": 80.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-8",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 168.0,
+                    "y": 77.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-8",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 168.0,
+                    "y": 77.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 31.0,
+                    "y": 17.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 31.0,
+                    "y": 17.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 31.0,
+                    "y": 17.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-+",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 220.0,
+                    "y": 100.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Process",
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-+",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 220.0,
+                    "y": 113.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Process",
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Process",
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-+",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 220.0,
+                    "y": 113.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Process",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "gas"
+                },
+                "code": "Unidentified",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-+",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 220.0,
+                    "y": 113.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Shift",
+                "code": "ShiftLeft",
+                "location": "Left",
+                "mods": {
+                    "bits": 512
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Shift",
+                "code": "ShiftLeft",
+                "location": "Left",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "f"
+                },
+                "code": "KeyF",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "f"
+                },
+                "code": "KeyF",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "f"
+                },
+                "code": "KeyF",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "f"
+                },
+                "code": "KeyF",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 28.0,
+                    "y": 50.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 28.0,
+                    "y": 50.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 49.0,
+                    "y": 188.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 49.0,
+                    "y": 48.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 45.0,
+                    "y": 53.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 45.0,
+                    "y": 54.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 45.0,
+                    "y": 55.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "f"
+                },
+                "code": "KeyF",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 45.0,
+                    "y": 57.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 45.0,
+                    "y": 58.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 45.0,
+                    "y": 65.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "f"
+                },
+                "code": "KeyF",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 46.0,
+                    "y": 63.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 46.0,
+                    "y": 63.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 4.0,
+                    "y": -16.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 144.0,
+                    "y": 83.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 4.0,
+                    "y": -16.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 16.0,
+                    "y": 11.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 24.0,
+                    "y": 0.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 24.0,
+                    "y": 1.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 26.0,
+                    "y": 7.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 29.0,
+                    "y": 21.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 30.0,
+                    "y": 24.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 46.0,
+                    "y": 49.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 46.0,
+                    "y": 49.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": -15.0,
+                    "y": 23.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 125.0,
+                    "y": 97.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": -15.0,
+                    "y": -17.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 174.0,
+                    "y": 106.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 175.0,
+                    "y": 107.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 175.0,
+                    "y": 110.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 35.0,
+                    "y": 0.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 41.0,
+                    "y": 16.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 41.0,
+                    "y": 18.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 47.0,
+                    "y": 38.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 47.0,
+                    "y": 38.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": -1.0,
+                    "y": -7.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 139.0,
+                    "y": 107.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": -1.0,
+                    "y": -7.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 139.0,
+                    "y": 112.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 139.0,
+                    "y": 97.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 139.0,
+                    "y": 99.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "f"
+                },
+                "code": "KeyF",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 140.0,
+                    "y": 99.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 141.0,
+                    "y": 100.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 148.0,
+                    "y": 101.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "f"
+                },
+                "code": "KeyF",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 204.0,
+                    "y": 83.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": "Enter",
+                "code": "Enter",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "g"
+                },
+                "code": "KeyG",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyDown": {
+                "state": "Down",
+                "key": {
+                    "Character": "f"
+                },
+                "code": "KeyF",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "a"
+                },
+                "code": "KeyA",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "s"
+                },
+                "code": "KeyS",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "d"
+                },
+                "code": "KeyD",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "text",
+        "window_id": 1,
+        "event": {
+            "KeyUp": {
+                "state": "Up",
+                "key": {
+                    "Character": "f"
+                },
+                "code": "KeyF",
+                "location": "Standard",
+                "mods": {
+                    "bits": 0
+                },
+                "repeat": false,
+                "is_composing": false,
+                "from_command": false
+            }
+        }
+    },
+    {
+        "selector": "option-×",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 224.0,
+                    "y": 13.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    }
+]

@@ -18,6 +18,7 @@ use std::any::{Any, TypeId};
 use std::cell::RefCell;
 use std::collections::{HashMap, VecDeque};
 use std::rc::Rc;
+use druid::screenshot;
 
 use crate::kurbo::Size;
 use crate::piet::Piet;
@@ -31,14 +32,13 @@ use crate::core::CommandQueue;
 use crate::ext_event::{ExtEventHost, ExtEventSink};
 use crate::menu::{ContextMenu, MenuItemId, MenuManager};
 use crate::window::{ImeUpdateFn, Window};
-use crate::{
-    Command, Data, Env, Event, Handled, InternalEvent, KeyEvent, PlatformError, Selector, Target,
-    TimerToken, WidgetId, WindowDesc, WindowId,
-};
+use crate::{Command, Data, Env, Event, Handled, InternalEvent, KeyEvent, PlatformError, Point, Selector, Target, TimerToken, Vec2, WidgetId, WindowDesc, WindowId};
 
 use crate::app::{PendingWindow, WindowConfig};
 use crate::command::sys as sys_cmd;
-use druid_shell::WindowBuilder;
+use druid_shell::{MouseButton, RawMods, WindowBuilder};
+use crate::KeyOrValue::Key;
+use crate::get_layout;
 
 pub(crate) const RUN_COMMANDS_TOKEN: IdleToken = IdleToken::new(1);
 
@@ -129,7 +129,7 @@ impl<T> Windows<T> {
         self.windows.remove(&id)
     }
 
-    fn iter_mut(&mut self) -> impl Iterator<Item = &'_ mut Window<T>> {
+    fn iter_mut(&mut self) -> impl Iterator<Item=&'_ mut Window<T>> {
         self.windows.values_mut()
     }
 
@@ -207,8 +207,8 @@ impl<T: Data> InnerAppState<T> {
     /// an arbitrary return type `R`, and returns `Some(R)` if an `AppDelegate`
     /// is configured.
     fn with_delegate<R, F>(&mut self, f: F) -> Option<R>
-    where
-        F: FnOnce(&mut dyn AppDelegate<T>, &mut T, &Env, &mut DelegateCtx) -> R,
+        where
+            F: FnOnce(&mut dyn AppDelegate<T>, &mut T, &Env, &mut DelegateCtx) -> R,
     {
         let InnerAppState {
             ref mut delegate,
@@ -662,6 +662,52 @@ impl<T: Data> AppState<T> {
         match cmd.target() {
             // these are handled the same no matter where they come from
             _ if cmd.is(sys_cmd::QUIT_APP) => self.quit(),
+            _ if cmd.is(sys_cmd::EXECUTE_EVENT) => {
+                let (selector, event, window_id) = cmd.get_unchecked(sys_cmd::EXECUTE_EVENT);
+                if let Some(new_event) = match event {
+                    druid::test::Event::KeyDown(key_event) | druid::test::Event::KeyUp(key_event) => {
+                        let new_key_event = Self::into_new_key_event(key_event);
+                        match event {
+                            druid::test::Event::KeyDown(_) => {
+                                Some(Event::KeyDown(new_key_event))
+                            }
+                            druid::test::Event::KeyUp(_) => {
+                                Some(Event::KeyUp(new_key_event))
+                            }
+                            _ => {
+                                unreachable!()
+                            }
+                        }
+                    }
+                    druid::test::Event::MouseDown(mouse_event) | druid::test::Event::MouseUp(mouse_event) | druid::test::Event::MouseMove(mouse_event) => {
+                        let new_mouse_event = Self::into_new_mouse_event(selector.clone(), mouse_event);
+                        match event {
+                            druid::test::Event::MouseDown(_) => {
+                                Some(Event::MouseDown(new_mouse_event))
+                            }
+                            druid::test::Event::MouseUp(_) => {
+                                Some(Event::MouseUp(new_mouse_event))
+                            }
+                            druid::test::Event::MouseMove(_) => {
+                                Some(Event::MouseMove(new_mouse_event))
+                            }
+                            _ => {
+                                unreachable!()
+                            }
+                        }
+                    }
+                    druid::test::Event::Screenshot(event) => {
+                        println!("{:?}", event);
+                        screenshot(event.selector.clone());
+                        None
+                    }
+                    _ => {
+                        unreachable!()
+                    }
+                } {
+                    self.do_window_event(new_event, *window_id);
+                }
+            }
             #[cfg(target_os = "macos")]
             _ if cmd.is(sys_cmd::HIDE_APPLICATION) => self.hide_app(),
             #[cfg(target_os = "macos")]
@@ -703,6 +749,23 @@ impl<T: Data> AppState<T> {
                 self.inner.borrow_mut().dispatch_cmd(cmd);
             }
         }
+    }
+
+    fn into_new_mouse_event(selector: String, mouse_event: &druid::MouseEvent) -> druid::MouseEvent {
+        let layout = get_layout(selector);
+        let v = Vec2::new(layout.origin.x, layout.origin.y);
+        let point = mouse_event.pos + v;
+        let mut new_mouse_event = mouse_event.clone();
+        new_mouse_event.window_pos = point;
+        new_mouse_event.pos = point;
+        new_mouse_event.from_command = true;
+        new_mouse_event
+    }
+
+    fn into_new_key_event(key_event: &druid::KeyEvent) -> KeyEvent {
+        let mut new_key_event = key_event.clone();
+        new_key_event.from_command = true;
+        new_key_event
     }
 
     fn show_open_panel(&mut self, cmd: Command, window_id: WindowId) {

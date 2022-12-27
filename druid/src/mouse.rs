@@ -16,6 +16,7 @@
 
 use crate::kurbo::{Point, Vec2};
 use crate::{Cursor, Data, Modifiers, MouseButton, MouseButtons};
+use serde::{Deserialize, Serialize};
 
 /// The state of the mouse for a click, mouse-up, move, or wheel event.
 ///
@@ -32,7 +33,7 @@ use crate::{Cursor, Data, Modifiers, MouseButton, MouseButtons};
 /// because the receiver's location changed without the mouse moving.
 ///
 /// [`Event::MouseMove`]: enum.Event.html#variant.MouseMove
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct MouseEvent {
     /// The position of the mouse in the coordinate space of the receiver.
     pub pos: Point,
@@ -69,6 +70,7 @@ pub struct MouseEvent {
     ///
     /// [WheelEvent]: https://w3c.github.io/uievents/#event-type-wheel
     pub wheel_delta: Vec2,
+    pub from_command: bool,
 }
 
 impl From<druid_shell::MouseEvent> for MouseEvent {
@@ -91,6 +93,7 @@ impl From<druid_shell::MouseEvent> for MouseEvent {
             focus,
             button,
             wheel_delta,
+            from_command: false
         }
     }
 }

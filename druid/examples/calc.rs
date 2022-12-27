@@ -16,13 +16,17 @@
 
 // On Windows platform, don't show a console when opening the app.
 #![windows_subsystem = "windows"]
+#![feature(async_closure)]
 
-use druid::{
-    theme, AppLauncher, Color, Data, Lens, LocalizedString, RenderContext, Widget, WidgetExt,
-    WindowDesc,
-};
+use std::thread::{sleep, spawn};
+use std::time::Duration;
+use lazy_static::lazy_static;
+use druid::{theme, AppLauncher, Color, Data, Lens, LocalizedString, RenderContext, Widget, WidgetExt, WindowDesc, DebugExt, AppDelegate, DelegateCtx, WindowId, Event, Env, execute, start_record, export, Target, Command, Handled, WindowConfig};
+use druid::commands::{EXECUTE_EVENT, EXECUTE_EVENTS};
+use druid::Target::Auto;
 
-use druid::widget::{CrossAxisAlignment, Flex, Label, Painter};
+use druid::widget::{CrossAxisAlignment, Flex, Label, Painter, TextBox};
+use druid_shell::KbKey;
 
 #[derive(Clone, Data, Lens)]
 struct CalcState {
@@ -31,6 +35,7 @@ struct CalcState {
     operand: f64,
     operator: char,
     in_num: bool,
+    text: String,
 }
 
 impl CalcState {
@@ -98,6 +103,7 @@ impl CalcState {
             'c' => {
                 self.value = "0".to_string();
                 self.in_num = false;
+                self.text = "".to_string();
             }
             'C' => {
                 self.value = "0".to_string();
@@ -133,12 +139,12 @@ fn op_button_label(op: char, label: String) -> impl Widget<CalcState> {
         }
     });
 
-    Label::new(label)
+    Label::new(label.clone())
         .with_text_size(24.)
         .center()
         .background(painter)
         .expand()
-        .on_click(move |_ctx, data: &mut CalcState, _env| data.op(op))
+        .on_click(move |_ctx, data: &mut CalcState, _env| data.op(op)).debug(format!("option-{}", label))
 }
 
 fn op_button(op: char) -> impl Widget<CalcState> {
@@ -165,7 +171,7 @@ fn digit_button(digit: u8) -> impl Widget<CalcState> {
         .center()
         .background(painter)
         .expand()
-        .on_click(move |_ctx, data: &mut CalcState, _env| data.digit(digit))
+        .on_click(move |_ctx, data: &mut CalcState, _env| data.digit(digit)).debug(format!("digit-{}", digit))
 }
 
 fn flex_row<T: Data>(
@@ -188,7 +194,8 @@ fn build_calc() -> impl Widget<CalcState> {
     let display = Label::new(|data: &String, _env: &_| data.clone())
         .with_text_size(32.0)
         .lens(CalcState::value)
-        .padding(5.0);
+        .padding(5.0)
+        .debug_str("result");
     Flex::column()
         .with_flex_spacer(0.2)
         .with_child(display)
@@ -243,23 +250,83 @@ fn build_calc() -> impl Widget<CalcState> {
             ),
             1.0,
         )
+        .with_child(
+            TextBox::multiline().lens(CalcState::text).debug_str("text")
+        )
 }
 
-pub fn main() {
-    let window = WindowDesc::new(build_calc())
-        .window_size((223., 300.))
-        .resizable(false)
-        .title(
-            LocalizedString::new("calc-demo-window-title").with_placeholder("Simple Calculator"),
-        );
-    let calc_state = CalcState {
-        value: "0".to_string(),
-        operand: 0.0,
-        operator: 'C',
-        in_num: false,
-    };
-    AppLauncher::with_window(window)
-        .log_to_console()
-        .launch(calc_state)
-        .expect("launch failed");
+#[derive(Default)]
+struct DebugDelegate;
+
+impl AppDelegate<CalcState> for DebugDelegate {
+    fn command(&mut self, ctx: &mut DelegateCtx, target: Target, cmd: &Command, data: &mut CalcState, env: &Env) -> Handled {
+        if let Some(path) = cmd.get(EXECUTE_EVENTS) {
+            let sink = ctx.get_external_handle();
+            let path = path.clone();
+            spawn(move || {
+                let events = execute(path);
+                for event in events {
+                    sink.submit_command(EXECUTE_EVENT, (
+                        event.selector,
+                        event.event,
+                        event.window_id
+                    ), Auto).unwrap();
+                    sleep(Duration::from_secs_f64(1.0 / 30.0));
+                }
+            });
+            Handled::Yes
+        } else {
+            Handled::No
+        }
+    }
+}
+
+use poem::{get, handler, listener::TcpListener, Route, Server, web::Path};
+
+
+#[handler]
+fn execute_ext(Path(id): Path<String>) {
+    SINK.lock().unwrap().as_ref().unwrap().submit_command(EXECUTE_EVENTS, Box::new(id), Auto).unwrap();
+}
+
+#[handler]
+fn hello() -> String {
+    format!("hello")
+}
+
+use std::sync::Mutex;
+use druid::ExtEventSink;
+
+lazy_static! {
+    static ref SINK : Mutex<Option<ExtEventSink>> = Mutex::new(None);
+}
+
+#[tokio::main]
+pub async fn main() -> Result<(), std::io::Error> {
+    spawn(|| {
+        let window = WindowDesc::new(build_calc())
+            .with_config(WindowConfig::default().show_titlebar(false).window_size((1920.,1080.)))
+            .title(
+                LocalizedString::new("calc-demo-window-title").with_placeholder("Simple Calculator"),
+            );
+        let calc_state = CalcState {
+            value: "0".to_string(),
+            operand: 0.0,
+            operator: 'C',
+            in_num: false,
+            text: "".to_string()
+        };
+        let launcher = AppLauncher::with_window(window)
+            .log_to_console()
+            .delegate(DebugDelegate::default());
+        let sink = launcher.get_external_handle();
+        *SINK.lock().unwrap() = Some(sink);
+        launcher
+            .launch(calc_state)
+            .expect("launch failed");
+    });
+    let app = Route::new().at("/execute/:id", get(execute_ext)).at("/hello", get(hello));
+    Server::new(TcpListener::bind("127.0.0.1:12480"))
+        .run(app)
+        .await
 }

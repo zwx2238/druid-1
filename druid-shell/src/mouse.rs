@@ -18,6 +18,7 @@ use crate::backend;
 use crate::kurbo::{Point, Vec2};
 use crate::piet::ImageBuf;
 use crate::Modifiers;
+use serde::{Deserialize, Serialize};
 
 /// Information about the mouse event.
 ///
@@ -57,7 +58,7 @@ pub struct MouseEvent {
 }
 
 /// An indicator of which mouse button was pressed.
-#[derive(PartialEq, Eq, Clone, Copy, Debug)]
+#[derive(PartialEq, Eq, Clone, Copy, Debug, Serialize, Deserialize)]
 #[repr(u8)]
 pub enum MouseButton {
     /// No mouse button.
@@ -120,7 +121,7 @@ impl MouseButton {
 /// A set of [`MouseButton`]s.
 ///
 /// [`MouseButton`]: enum.MouseButton.html
-#[derive(PartialEq, Eq, Clone, Copy, Default)]
+#[derive(PartialEq, Eq, Clone, Copy, Default, Serialize, Deserialize)]
 pub struct MouseButtons(u8);
 
 impl MouseButtons {

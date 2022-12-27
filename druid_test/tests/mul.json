@@ -1,0 +1,308 @@
+[
+    {
+        "selector": "digit-1",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 11.0,
+                    "y": 25.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-1",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 11.0,
+                    "y": 25.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-1",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 11.0,
+                    "y": 25.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-1",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 11.0,
+                    "y": 25.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-×",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 22.0,
+                    "y": 15.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-×",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 22.0,
+                    "y": 15.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-×",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 22.0,
+                    "y": 15.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-2",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 29.0,
+                    "y": 15.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "digit-2",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 29.0,
+                    "y": 15.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "digit-2",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 29.0,
+                    "y": 15.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 19.0,
+                    "y": 21.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 19.0,
+                    "y": 21.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-=",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 19.0,
+                    "y": 21.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-CE",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 35.0,
+                    "y": 27.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    },
+    {
+        "selector": "option-CE",
+        "window_id": 1,
+        "event": {
+            "MouseDown": {
+                "pos": {
+                    "x": 35.0,
+                    "y": 27.0
+                },
+                "buttons": 2,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 1,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-CE",
+        "window_id": 1,
+        "event": {
+            "MouseUp": {
+                "pos": {
+                    "x": 35.0,
+                    "y": 27.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "Left"
+            }
+        }
+    },
+    {
+        "selector": "option-CE",
+        "window_id": 1,
+        "event": {
+            "MouseMove": {
+                "pos": {
+                    "x": 6.0,
+                    "y": 19.0
+                },
+                "buttons": 0,
+                "mods": {
+                    "bits": 0
+                },
+                "count": 0,
+                "button": "None"
+            }
+        }
+    }
+]

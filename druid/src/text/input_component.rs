@@ -673,11 +673,11 @@ impl<T: TextStorage + EditableText> EditSession<T> {
                 newline_type,
                 ignore_hotkey,
             } => {
-                if self.send_notification_on_return && !ignore_hotkey {
-                    self.external_action = Some(action);
-                } else if self.accepts_newlines {
-                    self.ime_insert_text(buffer, &newline_type.to_string());
-                }
+                // if self.send_notification_on_return && !ignore_hotkey {
+                //     self.external_action = Some(action);
+                // } else if self.accepts_newlines {
+                //     self.ime_insert_text(buffer, &newline_type.to_string());
+                // }
             }
             TextAction::InsertTab { ignore_hotkey } => {
                 if ignore_hotkey || self.accepts_tabs {
@@ -846,8 +846,8 @@ impl<T: TextStorage + EditableText> InputHandler for EditSessionHandle<T> {
     }
 
     fn set_selection(&mut self, selection: Selection) {
-        self.inner.borrow_mut().external_selection_change = Some(selection);
-        self.inner.borrow_mut().external_scroll_to = Some(true);
+        // self.inner.borrow_mut().external_selection_change = Some(selection);
+        // self.inner.borrow_mut().external_scroll_to = Some(true);
     }
 
     fn composition_range(&self) -> Option<Range<usize>> {
@@ -871,8 +871,8 @@ impl<T: TextStorage + EditableText> InputHandler for EditSessionHandle<T> {
     }
 
     fn replace_range(&mut self, range: Range<usize>, text: &str) {
-        self.text.edit(range, text);
-        self.inner.borrow_mut().external_text_change = Some(self.text.clone());
+        // self.text.edit(range, text);
+        // self.inner.borrow_mut().external_text_change = Some(self.text.clone());
     }
 
     fn hit_test_point(&self, point: Point) -> crate::piet::HitTestPoint {

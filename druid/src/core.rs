@@ -16,6 +16,7 @@
 
 use std::collections::VecDeque;
 use tracing::{trace, trace_span, warn};
+use druid::update_layout;
 
 use crate::bloom::Bloom;
 use crate::command::sys::{CLOSE_WINDOW, SUB_WINDOW_HOST_TO_PARENT, SUB_WINDOW_PARENT_TO_HOST};
@@ -23,11 +24,7 @@ use crate::commands::SCROLL_TO_VIEW;
 use crate::contexts::{ChangeCtx, ContextState};
 use crate::kurbo::{Affine, Insets, Point, Rect, Shape, Size};
 use crate::sub_window::SubWindowUpdate;
-use crate::{
-    ArcStr, BoxConstraints, Color, Command, Cursor, Data, Env, Event, EventCtx, InternalEvent,
-    InternalLifeCycle, LayoutCtx, LifeCycle, LifeCycleCtx, Notification, PaintCtx, Region,
-    RenderContext, Target, TextLayout, UpdateCtx, Widget, WidgetId, WindowId,
-};
+use crate::{ArcStr, BoxConstraints, Color, Command, Cursor, Data, Element, Env, Event, EventCtx, InternalEvent, InternalLifeCycle, Layout, LayoutCtx, LifeCycle, LifeCycleCtx, Notification, PaintCtx, Region, RenderContext, Target, TextLayout, UpdateCtx, Widget, WidgetId, WindowId};
 
 /// Our queue type
 pub(crate) type CommandQueue = VecDeque<Command>;
@@ -597,8 +594,8 @@ impl<T: Data, W: Widget<T>> WidgetPod<T, W> {
     /// Execute the closure with this widgets `EventCtx`.
     #[cfg(feature = "crochet")]
     pub fn with_event_context<F>(&mut self, parent_ctx: &mut EventCtx, mut fun: F)
-    where
-        F: FnMut(&mut W, &mut EventCtx),
+        where
+            F: FnMut(&mut W, &mut EventCtx),
     {
         let mut ctx = EventCtx {
             state: parent_ctx.state,
@@ -982,7 +979,8 @@ impl<T: Data, W: Widget<T>> WidgetPod<T, W> {
                             ),
                         ));
 
-                        self.state.children_view_context_changed = false;
+                        update_layout(self.state.id, self.state.window_origin(), self.layout_rect().size());
+                    self.state.children_view_context_changed = false;
                     }
 
                     false

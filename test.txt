@@ -1,0 +1,26 @@
+.
+    DebugContainer
+        event
+            store_event(event)
+        layout
+            update_layout(selector,x,y,w,h)
+
+    ext.submit_command(EXECUTE_EVENT)
+    do_event()
+.
+    .
+        recording
+        events
+    f1
+        clear start
+    f2
+        stop execute
+    f3
+        stop export
+.
+    druid
+        Y
+    test
+        N
+    file
+        N

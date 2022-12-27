@@ -69,6 +69,12 @@ xi-unicode = "0.3.0"
 fnv = "1.0.7"
 instant = { version = "0.1.6", features = ["wasm-bindgen"] }
 
+reqwest = { version = "0.11.12" ,features=["blocking","json"]}
+poem = { version = "1.3.48" }
+tokio = { version = "1.21.2" }
+serde = { version = "1.0.147" ,features=["serde_derive"]}
+lazy_static = { version = "1.4.0" }
+
 # Optional dependencies
 chrono = { version = "0.4.19", optional = true }
 im = { version = "15.0.0", optional = true }
@@ -82,7 +88,7 @@ console_error_panic_hook = { version = "0.1.6" }
 float-cmp = { version = "0.8.0", features = ["std"], default-features = false }
 # tempfile 3.2.0 broke wasm; I assume it will be yanked (Jan 12, 2021)
 tempfile = "=3.1.0"
-piet-common = { version = "0.6.0", features = ["png"] }
+piet-common = { version = "0.6.0", features = ["png","serde"] }
 pulldown-cmark = { version = "0.8", default-features = false }
 test-log = { version = "0.2.5", features = ["trace"], default-features = false }
 # test-env-log needs it

@@ -244,3 +244,6 @@ pub type KeyCode = KbKey;
 #[deprecated(since = "0.7.0", note = "Use Modifiers instead")]
 /// See [`Modifiers`](struct.Modifiers.html).
 pub type KeyModifiers = Modifiers;
+
+pub mod test;
+pub use test::*;

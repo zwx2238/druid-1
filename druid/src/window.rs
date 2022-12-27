@@ -39,9 +39,10 @@ use crate::{
 };
 
 pub type ImeUpdateFn = dyn FnOnce(crate::shell::text::Event);
+use serde::{Deserialize, Serialize};
 
 /// A unique identifier for a window.
-#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord)]
+#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, Serialize, Deserialize)]
 pub struct WindowId(u64);
 
 /// Per-window state not owned by user code.

@@ -191,7 +191,7 @@ impl<T: Data> AppLauncher<T> {
         #[cfg(not(target_arch = "wasm32"))]
         {
             use tracing_subscriber::prelude::*;
-            let filter_layer = tracing_subscriber::filter::LevelFilter::DEBUG;
+            let filter_layer = tracing_subscriber::filter::LevelFilter::ERROR;
             let fmt_layer = tracing_subscriber::fmt::layer()
                 // Display target (eg "my_crate::some_mod::submod") with logs
                 .with_target(true);

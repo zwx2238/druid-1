@@ -16,6 +16,7 @@
 
 use std::time::Duration;
 use tracing::{instrument, trace};
+use druid_shell::KbKey;
 
 use crate::contexts::ChangeCtx;
 use crate::debug_state::DebugState;
@@ -564,7 +565,15 @@ impl<T: TextStorage + EditableText> Widget<T> for TextBox<T> {
                 _ => (),
             },
             Event::KeyDown(key) if !self.text().is_composing() => {
-                if let Some(cmd) = self.fallback_do_builtin_command(ctx, key) {
+                if let KbKey::Character(c) = key.clone().key {
+                    let inval = self.text_mut().borrow_mut().insert_text(data, &c);
+                    ctx.invalidate_text_input(inval);
+                }
+                else if let KbKey::Enter = key.clone().key {
+                    let inval = self.text_mut().borrow_mut().insert_text(data, "\n");
+                    ctx.invalidate_text_input(inval);
+                }
+                else if let Some(cmd) = self.fallback_do_builtin_command(ctx, key) {
                     ctx.submit_command(cmd);
                     ctx.set_handled();
                 }
